@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".presentation.activity.WeatherActivity">
+
+    <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:layout_margin="48dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-light"
+            tools:text="It's sunny where you are!"
+            android:textColor="@color/colorAccent"
+            android:background="@drawable/all_bg"
+            android:textSize="22sp"/>
+
+</FrameLayout>
